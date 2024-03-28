@@ -1,0 +1,155 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    height: 450px;
+    width: 350px;
+    background: linear-gradient(to bottom,hsla(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 25px;
+    margin-top: 40px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    height: 450px;
+    width: 350px;
+    background-color: rgb(243, 248, 250);
+    border-radius: 25px;
+    position:relative;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.titles{
+    color: rgb(237, 236, 236);
+    margin-top: -400px;
+    position: absolute;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    margin-top: -100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: white;
+    margin-bottom: -120px;
+    position: absolute;
+}
+p{
+    color: rgb(189, 219, 242);
+    margin-bottom: -230px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    margin-top: -50px;
+    
+}
+.summary{
+    margin-left: 20px;
+    color: rgb(19, 17, 93);
+}
+.Reaction{
+    height: 40px;
+    width: 75%;
+    border-radius: 10px;
+    background: hsla(0, 100%, 67%,0.1);
+    margin-left: 20px;
+    
+}
+svg{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.memory{
+    height: 40px;
+    width: 75%;
+    border-radius: 10px;
+    background: hsla(39, 100%, 56%,0.1);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.verbal{
+    height: 40px;
+    width: 75%;
+    border-radius: 10px;
+    background: hsla(166, 100%, 37%,0.1);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.visual{
+    height: 40px;
+    width: 75%;
+    border-radius: 10px;
+    background: hsla(234, 85%, 45%,0.1);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+button{
+    border: none;
+    border-radius: 20px;
+    background: rgb(68, 66, 137);
+    height: 40px;
+    width: 75%;
+    margin-left: 20px;
+    margin-top: 40px;
+    color: white;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: hsl(241, 81%, 54%);
+}
+.reactionInfo{
+    color: hsla(0, 100%, 67%,0.7);
+    margin-top: -25px;
+    margin-left: 35px;
+}
+.memoryInfo{
+    color: hsla(39, 100%, 56%,0.7);
+    margin-top: -25px;
+    margin-left: 35px;
+}
+.verbalInfo{
+    color: hsla(166, 100%, 37%,0.7);;
+    margin-top: -25px;
+    margin-left: 35px;
+}
+.visualInfo{
+    color: hsla(234, 85%, 45%,0.7);
+    margin-top: -25px;
+    margin-left: 35px;
+}
+.reactionScore{
+    margin-left: 150px;
+    margin-top: -40px;
+}
+.memoryScore{
+    margin-left: 150px;
+    margin-top: -40px;
+}
+.verbalScore{
+    margin-left: 150px;
+    margin-top: -40px;
+}
+.visualScore{
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
